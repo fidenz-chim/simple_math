@@ -31,7 +31,7 @@ for (var i=0;i<TOTAL_QUESTIONS;i++) {
             if (SHOW_QUESTION_INFO){
 				//var dur =  Math.round(((problemEnd - problemStart) * 100) /100 );
 				var dur =  problemEnd - problemStart;
-                console.log("\t\t\t\t\t\tCorrect :) [" + dur.toFixed(2).toString() +" Seconds]");
+                console.log("\t\t\t\tCorrect :) [" + dur.toFixed(2).toString() +" Seconds] " + "*".repeat(dur>30 ? 30 : dur));
 			}
             break;
         }
