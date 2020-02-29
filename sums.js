@@ -4,7 +4,7 @@ var readlineSync = require('readline-sync');
 const NUM_1 = 5;
 const NUM_2 = 5;
 const SHOW_QUESTION_INFO = true;
-const TOTAL_QUESTIONS = 15;
+const TOTAL_QUESTIONS = 5;
 
 function candidateNumber(below){
     return Math.floor(Math.random() * below) + 1
